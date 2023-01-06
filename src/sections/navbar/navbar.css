@@ -15,13 +15,14 @@ nav {
 .nav__container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+   align-items: center;
 }
 
 .nav__logo {
     width: 2.5rem;
     border-radius: 50%;
     overflow: hidden;
+    
 }
 
 .nav__menu {
@@ -29,9 +30,16 @@ nav {
     gap: 3.5rem;
 }
 
-#theme__icon{
+#theme__icon {
     background: transparent;
     color: white;
     font-size: 2rem;
     cursor: pointer;
+}
+
+/* HIDE NAV MENU ON TABLETS AND PHONES */
+@media screen and (max-width: 1024px){
+    .nav__menu {
+        display: none;
+    }
 }

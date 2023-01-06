@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -15,15 +14,15 @@
     --dark-lightness: 44%;
     --light-lightness: 94%;
     --white-lightness: 100%;
-    --color-primary: hsl(var(--primary-hue), 89%, 41%);
+    --color-primary: hsl(var(--primary-hue),89%,41%);
     --color-white: hsl(0, 5%, var(--white-lightness));
     --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
     --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
     --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
 
     /* GENERAL CONTAINER VARIABLES */
-    --container-width-lg: 76;
-    --container-width-md: 90;
+    --container-width-lg: 76%;
+    --container-width-md: 90%;
 
     /* BORDER RADIUS VARIABLES */
     --border-radius-1: 1.2rem;
@@ -149,6 +148,7 @@ img {
     background: var(--color-primary);
     /* text color always white that's why i didn't use a variable colour */
     color: white;
+    
 }
 
 .btn.primary:hover {
@@ -176,7 +176,7 @@ img {
         padding: 8rem 0;
     }
 
-    section>p {
+    section > p {
         width: 72%;
         margin-bottom: 3rem;
      }
@@ -193,14 +193,15 @@ img {
             font-size: 2.4rem; 
         }
 
-    h1 {
+    h2 {
          font-size: 1.8rem;
     }
-    h1 {
+
+    h3 {
         font-size: 1.4rem;
     }
     
-    h1 {
+    h4 {
         font-size: 1rem;
     }
 
