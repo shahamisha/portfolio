@@ -13,7 +13,7 @@ import { Pagination } from "swiper";
 
 import testimonials from "./data";
 import Testimonial from "./Testimonial";
-import "./testimonials.css";
+import "../../styles/testimonials.css";
 
 const Testimonials = () => {
   return (

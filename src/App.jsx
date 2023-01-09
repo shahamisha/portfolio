@@ -1,12 +1,12 @@
-import Navbar from "./sections/navbar/Navbar";
-import Header from "./sections/header/Header";
-import About from "./sections/about/About";
-import Services from "./sections/services/Services";
-import Portfolio from "./sections/portfolio/Portfolio";
-import Testimonials from "./sections/testimonials/Testimonials";
-import FAQs from "./sections/faqs/FAQs";
-import Contact from "./sections/contact/Contact";
-import Footer from "./sections/footer/Footer";
+import Navbar from "./components/navbar/Navbar";
+import Header from "./components/header/Header";
+import About from "./pages/about/About";
+import Services from "./pages/services/Services";
+import Portfolio from "./pages/portfolio/Portfolio";
+import Testimonials from "./pages/testimonials/Testimonials";
+import FAQs from "./pages/faqs/FAQs";
+import Contact from "./pages/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (

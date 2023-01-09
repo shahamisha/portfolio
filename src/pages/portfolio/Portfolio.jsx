@@ -1,4 +1,4 @@
-import "./portfolio.css";
+import "../../styles/portfolio.css";
 import Projects from "./Projects";
 import ProjectsCategories from "./ProjectsCategories";
 import data from "./data";

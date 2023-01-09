@@ -2,8 +2,8 @@ import AboutImage from "../../assets/about.jpeg";
 import Resume from "../../assets/resume.pdf";
 import { HiDownload } from "react-icons/hi";
 import data from "./data";
-import Card from "../../components/Card";
-import "./about.css";
+import Card from "../../components/card/Card";
+import "../../styles/about.css";
 
 const About = () => {
   return (

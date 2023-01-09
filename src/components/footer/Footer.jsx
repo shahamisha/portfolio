@@ -1,5 +1,5 @@
 import { links, socials } from "./data";
-import "./footer.css";
+import "../../styles/footer.css";
 
 const Footer = () => {
   return (

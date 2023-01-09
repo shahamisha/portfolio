@@ -1,4 +1,4 @@
-import Card from "../../components/Card";
+import Card from "../../components/card/Card";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { useState } from "react";
 

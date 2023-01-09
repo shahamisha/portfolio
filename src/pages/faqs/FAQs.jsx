@@ -1,6 +1,6 @@
 import faqs from "./data";
 import FAQ from "./FAQ";
-import "./faqs.css";
+import "../../styles/faqs.css";
 
 const FAQs = () => {
   return (
